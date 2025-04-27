@@ -1,8 +1,11 @@
+import React from "react";
+
 import { Outlet } from "react-router-dom";
+
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
-const Layout = () => {
+const Layout: React.FC = () => {
     return (
         <>
             <NavBar />
